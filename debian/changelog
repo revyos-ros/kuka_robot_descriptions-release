@@ -1,0 +1,7 @@
+ros-humble-kuka-robot-descriptions (0.9.0-2bullseye) bullseye; urgency=high
+
+  * Add meta-package for KUKA robot models and moveit configuration packages
+
+ -- Aron Svastits <svastits1@gmail.com>  Sun, 05 May 2024 16:00:00 -0000
+
+

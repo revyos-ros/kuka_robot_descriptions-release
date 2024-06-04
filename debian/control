@@ -1,0 +1,12 @@
+Source: ros-humble-kuka-robot-descriptions
+Section: misc
+Priority: optional
+Maintainer: Aron Svastits <svastits1@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-kuka-robot-descriptions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-kuka-agilus-support, ros-humble-kuka-cybertech-support, ros-humble-kuka-fortec-support, ros-humble-kuka-iontec-support, ros-humble-kuka-kr-moveit-config, ros-humble-kuka-lbr-iisy-moveit-config, ros-humble-kuka-lbr-iisy-support, ros-humble-kuka-lbr-iiwa-moveit-config, ros-humble-kuka-lbr-iiwa-support, ros-humble-kuka-mock-hardware-interface, ros-humble-kuka-quantec-support, ros-humble-kuka-resources, ros-humble-ros-workspace
+Description: Robot descriptions and moveit configurations for KUKA robots
