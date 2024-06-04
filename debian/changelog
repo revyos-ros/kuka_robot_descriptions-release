@@ -1,0 +1,8 @@
+ros-humble-kuka-quantec-support (0.9.0-2bullseye) bullseye; urgency=high
+
+  * Add models for robots kr210_r2700_2 and kr210_r3100_2 (transform chain, joint limits, collision meshes)
+  * Contributors: Aron Svastits
+
+ -- Aron Svastits <svastits1@gmail.com>  Sun, 05 May 2024 16:00:00 -0000
+
+
