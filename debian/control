@@ -1,0 +1,12 @@
+Source: ros-humble-kuka-mock-hardware-interface
+Section: misc
+Priority: optional
+Maintainer: Aron Svastits <svastits1@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-kuka-mock-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-hardware-interface, ros-humble-pluginlib, ros-humble-ros-workspace
+Description: ROS2 control mock hardware for KUKA robots
