@@ -1,0 +1,8 @@
+ros-humble-kuka-iontec-support (0.9.0-2bookworm) bookworm; urgency=high
+
+  * Add model for robot kr70_r2100 (transform chain, joint limits, collision meshes)
+  * Contributors: Aron Svastits
+
+ -- Aron Svastits <svastits1@gmail.com>  Sun, 05 May 2024 16:00:00 -0000
+
+
